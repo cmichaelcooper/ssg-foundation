@@ -1,0 +1,30 @@
+* {
+  @extend %space-reset;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  background: white;
+}
+
+html.noscroll,
+body.noscroll {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  position: relative;
+  font-family: "Noto Serif", serif;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img, svg {
+  width: 100%;
+  height: auto;
+}
