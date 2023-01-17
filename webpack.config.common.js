@@ -50,17 +50,17 @@ module.exports = {
     ],
   },
   // Any `import`s from `node_modules` will compiled in to a `vendor.js` file.
-  optimization: {
-    splitChunks: {
-      cacheGroups: {
-        commons: {
-          test: /[\\/]node_modules[\\/]/,
-          name: 'vendor',
-          chunks: 'all',
-        },
-      },
-    },
-  },
+  // optimization: {
+  //   splitChunks: {
+  //     cacheGroups: {
+  //       commons: {
+  //         test: /[\\/]node_modules[\\/]/,
+  //         name: 'vendor',
+  //         chunks: 'all',
+  //       },
+  //     },
+  //   },
+  // },
   plugins: [
     new MiniCssExtractPlugin({
       filename: '[name].css',
