@@ -1,6 +1,6 @@
 ---
 pagename: home
-title: Eleventy Half Elf Project Base
+title: SSG Foundation
 layout: default.njk
 permalink: /
 ---
